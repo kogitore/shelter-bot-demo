@@ -1,0 +1,6 @@
+fastapi
+uvicorn[standard]
+psycopg[binary]
+requests
+python-telegram-bot==20.7
+pandas

@@ -1,0 +1,15 @@
+[project]
+name = "telegram-shelter-bot"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.9"
+dependencies = [
+    "fastapi>=0.120.0",
+    "pandas>=2.3.3",
+    "psycopg[binary]>=3.2.11",
+    "python-telegram-bot==20.7",
+    "requests>=2.32.5",
+    "supabase>=2.8.1",
+    "uvicorn[standard]>=0.38.0",
+]

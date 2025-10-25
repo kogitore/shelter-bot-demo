@@ -1,0 +1,235 @@
+# ============================================
+# 🔐 敏感資訊 - 絕對不能上傳到 GitHub
+# ============================================
+
+# 環境變數檔案（包含 API keys, 密碼, tokens）
+.env
+.env.local
+.env.*.local
+docker/.env
+*.env
+
+# 環境設定
+.envrc
+
+# 憑證和金鑰檔案
+*.pem
+*.key
+*.cert
+credentials.json
+secrets.json
+
+# ============================================
+# 🐍 Python
+# ============================================
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+
+# Distribution / packaging
+.Python
+build/
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+MANIFEST
+
+# PyInstaller
+*.manifest
+*.spec
+
+# Unit test / coverage reports
+htmlcov/
+.tox/
+.nox/
+.coverage
+.coverage.*
+.cache
+nosetests.xml
+coverage.xml
+*.cover
+*.py,cover
+.hypothesis/
+.pytest_cache/
+cover/
+
+# Virtual environments
+.venv
+.venv/
+venv/
+ENV/
+env/
+env.bak/
+venv.bak/
+
+# Jupyter Notebook
+.ipynb_checkpoints
+
+# pyenv
+.python-version
+
+# Environments
+pip-log.txt
+pip-delete-this-directory.txt
+
+# ============================================
+# 🐳 Docker
+# ============================================
+
+# Docker volumes and data
+docker/data/
+docker/postgres-data/
+*.log
+
+# ============================================
+# 💻 IDE / 編輯器
+# ============================================
+
+# VSCode
+.vscode/
+*.code-workspace
+
+# PyCharm
+.idea/
+*.iml
+
+# Sublime Text
+*.sublime-project
+*.sublime-workspace
+
+# Vim
+*.swp
+*.swo
+*~
+
+# Emacs
+*~
+\#*\#
+/.emacs.desktop
+/.emacs.desktop.lock
+
+# Claude Desktop / AI 助手
+.claude/
+
+# ============================================
+# 🍎 macOS
+# ============================================
+
+.DS_Store
+.AppleDouble
+.LSOverride
+._*
+
+# ============================================
+# 🪟 Windows
+# ============================================
+
+Thumbs.db
+Thumbs.db:encryptable
+ehthumbs.db
+ehthumbs_vista.db
+Desktop.ini
+
+# ============================================
+# 🐧 Linux
+# ============================================
+
+*~
+.directory
+.Trash-*
+
+# ============================================
+# 📦 依賴項和鎖定檔案（可選）
+# ============================================
+
+# 如果團隊不使用 uv，可以忽略這些
+# uv.lock
+# poetry.lock
+
+# Node modules（如果有前端）
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# ============================================
+# 🗑️ 臨時檔案和備份
+# ============================================
+
+# 備份檔案
+*.bak
+*.backup
+*.old
+*.orig
+*.tmp
+
+# 測試輸出
+test-output/
+test-results/
+
+# 日誌檔案
+*.log
+logs/
+log/
+
+# ============================================
+# 📊 資料檔案（視情況而定）
+# ============================================
+
+# 如果資料檔案太大或包含敏感資訊，可以取消註解
+# documents/taipei_shelters.csv
+# documents/shelter.json
+
+# 臨時資料和快取
+*.cache
+cache/
+.cache/
+
+# 資料庫檔案（如果用 SQLite）
+*.db
+*.sqlite
+*.sqlite3
+
+# ============================================
+# 🚀 部署相關
+# ============================================
+
+# Zeabur / Vercel / Netlify
+.vercel
+.netlify
+
+# Docker compose override
+docker-compose.override.yml
+
+# ============================================
+# 📝 其他
+# ============================================
+
+# 系統檔案
+.fseventsd
+.Spotlight-V100
+.TemporaryItems
+.Trashes
+.VolumeIcon.icns
+.com.apple.timemachine.donotpresent
+
+# 壓縮檔
+*.zip
+*.tar.gz
+*.rar
+*.7z
